@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media screen and (max-width: 320px) {
+  body {
+    font-family: "lato";
+    margin: 0px; }
+
+  .menu {
+    background: #4ea8f3;
+    color: white;
+    padding: 20px 0px; }
+
+  .menu h2 {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 18px; }
+
+  .menu i {
+    font-size: 20px;
+    margin-left: 20px; }
+
+  .notificaciones ul {
+    padding-top: 10px;
+    margin-bottom: 5px;
+    text-align: center; }
+
+  .notificaciones li {
+    display: inline-block;
+    list-style-type: none;
+    color: grey;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px; }
+
+  .numeros ul {
+    padding-left: 22px;
+    margin: 0px;
+    margin-bottom: 30px; }
+
+  .numeros li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    font-size: 12px; }
+
+  .boton {
+    border-radius: 10px;
+    padding: 5px 5px; }
+
+  #uno {
+    margin-left: 23px;
+    background-color: red; }
+
+  #dos {
+    margin-left: 30px;
+    background-color: green; }
+
+  #tres {
+    margin-left: 38px;
+    background-color: blue; }
+
+  #cuatro {
+    margin-left: 38px;
+    background-color: red; }
+
+  .persona img {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    display: inline;
+    float: left; }
+
+  .persona h2 {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    font-weight: bold; }
+
+  .persona h4 {
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-bottom: 25px; }
+
+  hr {
+    display: block;
+    color: grey;
+    opacity: 0.5; }
+
+  input {
+    margin: 10px 10px;
+    margin-left: 40px;
+    padding: 5px;
+    width: 200px;
+    background-color: #EEEEEE;
+    border: 1px solid #666666; }
+
+  .selecciones li {
+    display: inline-block;
+    margin: 20px;
+    color: #666666; }
+
+  .selecciones i {
+    margin-right: 15px;
+    color: #666666;
+    display: inline-block; }
+
+  #icon1 {
+    margin-left: 114px; }
+
+  #icon2 {
+    margin-left: 160px; }
+
+  #icon3 {
+    margin-left: 148px; }
+
+  #icon4 {
+    margin-left: 115px; }
+
+  #boton {
+    border-radius: 0px;
+    padding: 5px 8px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    margin-left: 120px; } }
+
+/*# sourceMappingURL=style.css.map */
